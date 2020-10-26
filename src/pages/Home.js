@@ -20,15 +20,15 @@ function Home() {
                 <div className="home__headerRight">
                     {/* Gmail */}
                     <Link to="/Gmail">Gmail</Link>
-                     {/* Images */}
+                    {/* Images */}
                     <Link to="/images">Images</Link>
                     {/* Icon */}
                     <AppsIcon />
                     {/* Avatar */}
                     <Avatar />
-                 </div>
+                </div>
             </div>
-                <div className="home__body">
+            <div className="home__body">
                 <img
                     src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png"
                     alt=""
@@ -37,7 +37,7 @@ function Home() {
                     {/*search */}
                     <Search hideButtons />
                 </div>
-                </div>
+            </div>
         </div>
     )
 }

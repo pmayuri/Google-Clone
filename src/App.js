@@ -10,19 +10,16 @@ function App() {
     //BEM
     <div className="App">
       <Router>
-       <Switch>
-         <Route path="/search">
+        <Switch>
+          <Route path="/search">
             <SearchPage />
-           </Route>
-           <Route path="/">
-             <Home />
-           </Route>
-       </Switch>
-
+          </Route>
+          <Route path="/">
+            <Home />
+          </Route>
+        </Switch>
       </Router>
-      
-
-    </div>
+   </div>
   );
 }
 
