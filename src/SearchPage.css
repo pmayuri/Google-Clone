@@ -53,3 +53,49 @@
 .search_option a {
     margin-left: 5px;
 }
+
+.searchPage__result {
+    margin: 40px 0;
+    text-decoration:none ;
+}
+
+.searchPage__resultCount {
+   color: #70757a;
+   font-size: 14px;
+}
+
+.searchPage__results {
+    max-width: 650px;
+    margin-top: 20px;
+    margin-left: 240px;
+    margin-bottom: 100px;
+
+}
+
+.searchPage__resultImage {
+    object-fit: contain;
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+    
+}
+
+.searchPage__resultTitle {
+ text-decoration: none;
+ font-family: arial,sans-serif;
+ color: #1A0DAB;
+font-size: 13px;
+}
+
+.searchPage__resultTitle:hover {
+    text-decoration: underline;
+}
+
+.searchPage__resultTitle > h2 {
+    font-weight: normal;
+}
+
+.searchPage__resultSnippet {
+    margin-top: 10px;
+    color: #4d5156;
+}
